@@ -9,7 +9,6 @@ class item{
                 cout<<c;
             }
 };
-
 int main(){
     item obj1;
     obj1.summ(7,2);
