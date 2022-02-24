@@ -6,11 +6,13 @@ class item{
     public:
             void summ(int a,int b){
                 c=a+b;
-                cout<<c;
+                cout<<c<<endl;
             }
 };
 int main(){
-    item obj1;
-    obj1.summ(7,2);
+    item obj[5];
+    for (int i=0;i<5;i++){
+        obj[i].summ(7,2);
+    }
     return 0;
 }
