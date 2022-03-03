@@ -1,7 +1,7 @@
 #include <iostream>
 
 using namespace std;
-int a=5;
+int a;        //global scope variable value 0 not random
 void _1(){
     int a=6;
     cout<<a;
